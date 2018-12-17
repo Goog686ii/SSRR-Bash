@@ -85,9 +85,14 @@ Check_python(){
 			apt-get install -y python
 		fi
 	fi
+	pip install --upgrade pip
+	pip install peewee
+	pip install pymysql
 }
 Centos_yum(){
 	yum update
+	yum install epel-release -y
+	yum install python-pip -y
 	cat /etc/redhat-release |grep 7\..*|grep -i centos>/dev/null
 	if [[ $? = 0 ]]; then
 		yum install -y vim unzip crond net-tools git
