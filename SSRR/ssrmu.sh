@@ -846,14 +846,14 @@ Check_python(){
 	if [[ -z ${python_ver} ]]; then
 		echo -e "${Info} 没有安装Python，开始安装..."
 		if [[ ${release} == "centos" ]]; then
-			yum install -y python
+			yum install -y python && yum install -y python-pip && pip install --upgrade pip && pip install peewee && pip install pymysql
 		else
-			apt-get install -y python
+			apt-get install -y python && apt-get install -y python-pip && pip install --upgrade pip && pip install peewee && pip install pymysql
 		fi
 	fi
 }
 Centos_yum(){
-	yum update
+	yum update && yum install epel-release -y
 	cat /etc/redhat-release |grep 7\..*|grep -i centos>/dev/null
 	if [[ $? = 0 ]]; then
 		yum install -y vim unzip crond net-tools
