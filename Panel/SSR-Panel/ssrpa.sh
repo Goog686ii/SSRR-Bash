@@ -171,6 +171,7 @@ Install_SSR(){
 	Service_SSR
 	echo -e "${Info} 安装JQ解析器"
 	JQ_install
+	Start_SSR
 	menu_status
 }
 # 安装 依赖
