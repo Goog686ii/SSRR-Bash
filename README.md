@@ -7,15 +7,15 @@
 -----
 
 ShadowsocksR mudbjson server版：<br>
-`wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/SSRR-Bash/master/SSRR/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh`
+`wget -N --no-check-certificate https://raw.githubusercontent.com/Goog686ii/SSRR-Bash/master/SSRR/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh`
 
 
 SS-Panel后端版：<br>
 服务端版本：2018-8-5<br>
-`wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/SSRR-Bash/master/Panel/SS-Panel/ssrpa.sh && chmod +x ssrpa.sh && bash ssrpa.sh`
+`wget -N --no-check-certificate https://raw.githubusercontent.com/Goog686ii/SSRR-Bash/master/Panel/SS-Panel/ssrpa.sh && chmod +x ssrpa.sh && bash ssrpa.sh`
 
 
 SSR-Panel后端版：<br>
-`wget -N --no-check-certificate https://raw.githubusercontent.com/Chennhaoo/SSRR-Bash/master/Panel/SSR-Panel/ssrpa.sh && chmod +x ssrpa.sh && bash ssrpa.sh`
+`wget -N --no-check-certificate https://raw.githubusercontent.com/Goog686ii/SSRR-Bash/master/Panel/SSR-Panel/ssrpa.sh && chmod +x ssrpa.sh && bash ssrpa.sh`
 
 
